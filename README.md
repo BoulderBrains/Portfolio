@@ -1,5 +1,10 @@
 # Bootstrap-Portfolio
 
+TO DO: 
+- put icon/img in have bar to left of name, maybe in a circle
+- Fix sizing and placement of social icons in the footer
+- Jumbotron? Background images for jumbotron?
+
 ### Assignment One Instructions (Bootstrap)
 
 1. Inside your `Bootstrap-Portfolio` repo, create `index.html`, `portfolio.html` and `contact.html`.
@@ -10,7 +15,7 @@
 
    * A responsive layout (remember the grid, rows and columns are your friends)
 
-     * eg. On `xs` and `sm` screens, content should take up the entire screen. On `md` and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
+     * eg. On `xs` and `sm` screens (col-xsm-12), content should take up the entire screen. On `md` (col-med-8) and larger screens, you should have some margins on the left and right side of the screen. Check out various sites on your mobile device versus your computer to see this in action!
 
    * Responsive images
 
