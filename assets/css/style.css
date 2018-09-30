@@ -4,6 +4,11 @@
     padding-bottom: 0;
 }
 
+.nav-link {
+	padding-top: 0;
+    padding-bottom: 0;
+}
+
 .navbar-brand {
 	background-color: #344D3C;
 	padding: 20px;
@@ -11,6 +16,11 @@
 
 h1 {
 	font-family: 'Montserrat', sans-serif;
+}
+
+.about, 
+.portfolio {
+	border-right: 1px solid #FFFFFF;
 }
 
 footer {
