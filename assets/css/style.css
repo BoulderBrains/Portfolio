@@ -32,6 +32,11 @@ h1 {
 	border-right: 1px solid #FFFFFF;
 }
 
+.content-wrap {
+	border: 1px solid black;
+	margin: 0 auto;
+}
+
 footer {
 	position: absolute;
     bottom: 0;
@@ -65,4 +70,10 @@ footer {
 	color: #6cc644;
 }
 
-
+/* Styles related only to the index.html file */
+.personal-photo {
+    width: 140px;
+    height: 150px;
+    margin: 10px;
+    float: left;
+}
