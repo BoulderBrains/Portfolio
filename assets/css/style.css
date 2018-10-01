@@ -32,10 +32,6 @@ h1 {
 	border-right: 1px solid #FFFFFF;
 }
 
-.social-wrapper a i {
-	padding: 0 10px;
-}
-
 footer {
 	position: absolute;
     bottom: 0;
@@ -46,3 +42,27 @@ footer {
 	text-align: center;
 	font-size: 32px;
 }
+
+.social-wrapper a i {
+	padding: 0 10px;
+	color: #F5F5F4;
+	text-decoration: none;
+}
+
+.social-wrapper a .fa-linkedin:hover {
+	color: #0077B5;
+}
+
+.social-wrapper a .fa-twitter:hover {
+	color: #00aced;
+}
+
+.social-wrapper a .fa-instagram:hover {
+	color: #c32aa3;
+}
+
+.social-wrapper a .fa-github:hover {
+	color: #6cc644;
+}
+
+
