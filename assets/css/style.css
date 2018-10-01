@@ -90,3 +90,43 @@ footer {
     margin: 10px;
     float: left;
 }
+
+/* Styles related only to the portfolio.html file  */
+.album1,
+.album2,
+.album3,
+.album4,
+.album5,
+.album6 {
+	height: 150px;
+	background-size: cover;
+}
+
+
+/* This link in included several times to ensure a new random
+image is served from picsum. I could have used the same class for
+all of these, but then the same image would be served and the page
+doesn't look as good that way. */
+.album1 {
+    background-image: url('../images/bartVandal.png');
+}
+
+.album2 {
+    background-image: url('../images/bartSlingshot.png');
+}
+
+.album3 {
+    background-image: url('../images/bartWriting.png');
+}
+
+.album4 {
+    background-image: url('../images/homerPointing.png');
+}
+
+.album5 {
+    background-image: url('../images/lisa.png');
+}
+
+.album6 {
+    background-image: url('../images/marge.png');
+}
