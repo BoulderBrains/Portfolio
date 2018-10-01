@@ -45,13 +45,13 @@ body {
 
 .content-wrap {
 	border: 1px solid black;
-	margin: 30px auto;
+	margin: 30px auto 100px auto;
 	background-color: #F5F5F4;
 	box-shadow: 0 4px 10px;
 }
 
 footer {
-	position: absolute;
+	position: fixed;
     bottom: 0;
     width: 100%;
     height: 60px;
@@ -106,7 +106,15 @@ footer {
 	width: 90%;
 }
 
+.button-wrap {
+	margin-bottom: 20px;
+}
+
 /* Styles related only to the portfolio.html file  */
+.portfolio-wrapper {
+	margin-bottom: 20px;
+}
+
 .album1,
 .album2,
 .album3,
