@@ -23,8 +23,10 @@ green: #344D3C;
 	padding: 20px;
 }
 
-h1 {
+h3 {
 	font-family: 'Montserrat', sans-serif;
+	color: #4A2C57;
+    padding-top: 15px;
 }
 
 .about, 
@@ -32,9 +34,15 @@ h1 {
 	border-right: 1px solid #FFFFFF;
 }
 
+body {
+	background-image: url("../images/concrete-texture.png");
+}
+
 .content-wrap {
 	border: 1px solid black;
-	margin: 0 auto;
+	margin: 30px auto;
+	background-color: #F5F5F4;
+	box-shadow: 0 4px 10px;
 }
 
 footer {
@@ -48,7 +56,7 @@ footer {
 	font-size: 32px;
 }
 
-.social-wrapper a i {
+.social-wrapper a {
 	padding: 0 10px;
 	color: #F5F5F4;
 	text-decoration: none;
