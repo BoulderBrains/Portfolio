@@ -13,6 +13,11 @@ green: #344D3C;
     padding-bottom: 0;
 }
 
+/* removing the default border-radius applied by bootstrap styles */
+.navbar-toggler {
+	border-radius: 0;
+}
+
 .nav-link {
 	padding-top: 0;
     padding-bottom: 0;
