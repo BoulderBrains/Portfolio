@@ -1,5 +1,5 @@
 # Bootstrap-Portfolio
-#### github pages url: https://boulderbrains.github.io/Bootstrap-Portfolio/
+#### Github pages url: https://boulderbrains.github.io/Bootstrap-Portfolio/
 
 TO DO: 
 - put icon/img in have bar to left of name, maybe in a circle
