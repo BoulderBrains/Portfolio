@@ -107,12 +107,12 @@ footer {
 	margin-bottom: 20px;
 }
 
-.album1,
-.album2,
-.album3,
-.album4,
-.album5,
-.album6 {
+.project1,
+.project2,
+.project3,
+.project4,
+.project5,
+.project6 {
 	height: 150px;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -120,6 +120,6 @@ footer {
 	text-align: center;
 }
 
-.album1 {
+.project1 {
 	background-image: url('../images/crystalball.png');
 }
