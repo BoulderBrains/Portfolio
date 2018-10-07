@@ -19,7 +19,8 @@
 	padding: 20px;
 }
 
-h3 {
+h3,
+h5 {
 	font-family: 'Montserrat', sans-serif;
 	color: #4A2C57;
     padding-top: 15px;
@@ -113,34 +114,12 @@ footer {
 .album5,
 .album6 {
 	height: 150px;
-	background-size: cover;
+	background-size: contain;
+	background-repeat: no-repeat;
+	background-position: center;
+	text-align: center;
 }
 
-
-/* This link in included several times to ensure a new random
-image is served from picsum. I could have used the same class for
-all of these, but then the same image would be served and the page
-doesn't look as good that way. */
 .album1 {
-    background-image: url('../images/rack.svg');
-}
-
-.album2 {
-    background-image: url('../images/rack.svg');
-}
-
-.album3 {
-    background-image: url('../images/rack.svg');
-}
-
-.album4 {
-    background-image: url('../images/rack.svg');
-}
-
-.album5 {
-    background-image: url('../images/rack.svg');
-}
-
-.album6 {
-    background-image: url('../images/rack.svg');
+	background-image: url('../images/crystalball.png');
 }
