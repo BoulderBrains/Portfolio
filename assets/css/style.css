@@ -123,3 +123,7 @@ footer {
 .project1 {
 	background-image: url('../images/crystalball.png');
 }
+
+.project2 .fa-gem {
+	font-size: 130px;
+}
