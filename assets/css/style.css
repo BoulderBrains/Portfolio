@@ -124,6 +124,11 @@ footer {
 	background-image: url('../images/crystalball.png');
 }
 
-.project2 .fa-gem {
+.project2 .fa-gem,
+.project3 .fa-question {
 	font-size: 130px;
+}
+
+.project3 .fa-question {
+	color: orange;
 }
