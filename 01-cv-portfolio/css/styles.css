@@ -336,10 +336,11 @@ header .downlad-btn:hover {
 }
 
 .intro .social-icons>li>a {
-	height: 35px;
-	line-height: 35px;
-	width: 35px;
-	border-radius: 20px;
+	height: 50px;
+	line-height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	font-size: 27px;
 	overflow: hidden;
 	z-index: 1;
 	position: relative;
