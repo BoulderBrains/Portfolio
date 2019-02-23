@@ -601,7 +601,8 @@ header .downlad-btn:hover {
 .project3,
 .project4,
 .project5,
-.project6 {
+.project6,
+.project7 {
 	height: 300px;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -615,7 +616,8 @@ header .downlad-btn:hover {
 .project3:hover,
 .project4:hover,
 .project5:hover,
-.project6:hover {
+.project6:hover,
+.project7:hover {
 	transform: scale(1.15);
 }
 
@@ -641,4 +643,8 @@ header .downlad-btn:hover {
 
 .project6 {
 	background-image: url('../../images/portfolio/Black&White.png');
+}
+
+.project7 {
+	background-image: url('../../images/portfolio/news.png');
 }
