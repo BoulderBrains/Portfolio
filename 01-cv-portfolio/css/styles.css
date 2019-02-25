@@ -602,7 +602,8 @@ header .downlad-btn:hover {
 .project4,
 .project5,
 .project6,
-.project7 {
+.project7,
+.project8 {
 	height: 300px;
 	background-size: contain;
 	background-repeat: no-repeat;
@@ -617,7 +618,8 @@ header .downlad-btn:hover {
 .project4:hover,
 .project5:hover,
 .project6:hover,
-.project7:hover {
+.project7:hover,
+.project8:hover {
 	transform: scale(1.15);
 }
 
