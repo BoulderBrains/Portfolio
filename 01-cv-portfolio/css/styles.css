@@ -610,6 +610,7 @@ header .downlad-btn:hover {
 	background-position: center;
 	text-align: center;
 	transition: transform .2s;
+	margin-top: 20px;
 }
 
 .project1:hover,
