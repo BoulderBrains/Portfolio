@@ -424,34 +424,10 @@ header .downlad-btn:hover {
 6. ABOUT SECTION
 --------------------------------- */
 
-.radial-progress {
-	position: relative;
-	max-width: 200px;
-	margin: 0 auto;
-}
-
-.radial-progress .progressbar-text {
-	font-size: 2.2em;
-	font-weight: 500;
-	padding-bottom: 25px !important;
-	color: #333 !important;
-}
-
-.radial-progress .progressbar-text:after {
-	content: '%';
-}
-
-.radial-progress .progress-title {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-	letter-spacing: 0;
-	text-align: center;
-	transform: translate(-50%, 15px);
+.about-section li {
+	display: block;
 	color: #777;
 }
-
 
 
 /* ---------------------------------
