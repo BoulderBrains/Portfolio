@@ -13,5 +13,5 @@ Email: joshuadstarkey@gmail.com
 - CSS/Bootstrap
 
 #### Hosted via:
-Google domains: https://domains.google/#/
-Github pages: https://pages.github.com/
+- Google domains: https://domains.google/#/
+- Github pages: https://pages.github.com/
