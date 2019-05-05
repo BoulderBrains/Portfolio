@@ -568,8 +568,16 @@ header .downlad-btn:hover {
 	color: #777;
 }
 
+.portfolio-wrapper .row {
+	display: inline-block;
+	text-align: center;
+}
+
 .project {
 	margin-bottom: 40px;
+	border: 2px solid #28023D;
+	border-radius: 7px;
+	margin: 15px;
 }
 
 .project1,
@@ -589,15 +597,20 @@ header .downlad-btn:hover {
 	margin-top: 20px;
 }
 
-.project1:hover,
-.project2:hover,
-.project3:hover,
-.project4:hover,
-.project5:hover,
-.project6:hover,
-.project7:hover,
-.project8:hover {
-	transform: scale(1.15);
+.project:hover {
+	transform: scale(1.09);
+	box-shadow: 0 10px 6px -6px gray;
+}
+
+.project:hover .project1,
+.project:hover .project2,
+.project:hover .project3,
+.project:hover .project4,
+.project:hover .project5,
+.project:hover .project6,
+.project:hover .project7,
+.project:hover .project8 {
+	transform: rotate(-4deg);
 }
 
 .project1 {
