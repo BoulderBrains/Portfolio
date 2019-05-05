@@ -34,7 +34,6 @@
 				return false;
 			});
 		}
-
 	});
 
 
@@ -43,15 +42,12 @@
 	});
 
 	var countCounterUp = 0;
-
 	var a = 0;
 
 	countCounterUp = enableCounterUp(countCounterUp);
 
 	$(window).on('scroll', function () {
-
 		countCounterUp = enableCounterUp(countCounterUp);
-
 	});
 
 
@@ -71,7 +67,6 @@ function panelAccordian() {
 function enableCounterUp(a) {
 
 	var counterElement;
-
 	if (isExists('#counter')) {
 		counterElement = $('#counter');
 	} else {
