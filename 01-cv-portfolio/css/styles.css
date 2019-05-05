@@ -318,6 +318,7 @@ header .downlad-btn:hover {
 	margin-top: 100px;
 	text-align: center;
 	background: #fff;
+	border-radius: 75px;
 }
 
 .intro .profile-img {
