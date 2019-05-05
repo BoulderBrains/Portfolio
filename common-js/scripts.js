@@ -1,8 +1,5 @@
 (function ($) {
-
 	"use strict";
-
-
 
 	// LINE PROGRESS BAR
 	enableLineProgress();
