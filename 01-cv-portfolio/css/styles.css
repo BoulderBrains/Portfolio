@@ -1,20 +1,3 @@
-/*
-====================================================
-	TOC
-	
-	1. PRIMARY STYLES
-	2. COMMONS FOR PAGE DESIGN
-	3. HEADER
-	4. INTRO SECTION
-	5. PORFOLIO SECTION
-	6. ABOUT SECTION
-	7. EXPERIENCE SECTION
-	8. EDUCATION SECTION
-	9. COUNTER SECTION
-
-====================================================
-
-
 /* ---------------------------------
 1. PRIMARY STYLES
 --------------------------------- */
@@ -27,7 +10,6 @@ html {
 	padding: 0px;
 	touch-action: manipulation;
 }
-
 
 body {
 	font-size: 16px;
@@ -551,38 +533,6 @@ header .downlad-btn:hover {
 	bottom: 4px;
 	right: 0px;
 	width: 112px;
-}
-
-
-/* RADIAL PROGRESS SECTION */
-
-
-.radial-progress {
-	position: relative;
-	max-width: 200px;
-	margin: 0 auto;
-}
-
-.radial-progress .progressbar-text {
-	font-size: 2.2em;
-	font-weight: 500;
-	padding-bottom: 25px !important;
-	color: #333 !important;
-}
-
-.radial-progress .progressbar-text:after {
-	content: '%';
-}
-
-.radial-progress .progress-title {
-	position: absolute;
-	top: 50%;
-	left: 50%;
-	width: 100%;
-	letter-spacing: 0;
-	text-align: center;
-	transform: translate(-50%, 15px);
-	color: #777;
 }
 
 .portfolio-wrapper .row {

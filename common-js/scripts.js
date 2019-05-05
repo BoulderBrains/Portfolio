@@ -4,9 +4,6 @@
 	// LINE PROGRESS BAR
 	enableLineProgress();
 
-	// RADIAL PROGRESS BAR
-	enableRadialProgress();
-
 	// ACCORDIAN
 	panelAccordian();
 
@@ -48,11 +45,6 @@
 		return;
 	});
 
-
-	if ($.isFunction($.fn.fluidbox)) {
-		$('a').fluidbox();
-	}
-
 	var countCounterUp = 0;
 
 	var a = 0;
@@ -77,53 +69,6 @@ function panelAccordian() {
 
 	});
 
-}
-
-function enableRadialProgress() {
-
-	$(".radial-progress").each(function () {
-		var $this = $(this),
-			progPercent = $this.data('prog-percent');
-
-		var bar = new ProgressBar.Circle(this, {
-			color: '#aaa',
-			strokeWidth: 3,
-			trailWidth: 1,
-			easing: 'easeInOut',
-			duration: 1400,
-			text: {
-
-			},
-			from: {
-				color: '#aaa',
-				width: 1
-			},
-			to: {
-				color: '#FEAE01',
-				width: 3
-			},
-			// Set default step function for all animate calls
-			step: function (state, circle) {
-				circle.path.setAttribute('stroke', state.color);
-				circle.path.setAttribute('stroke-width', state.width);
-
-				var value = Math.round(circle.value() * 100);
-				if (value === 0) {
-					circle.setText('');
-				} else {
-					circle.setText(value);
-				}
-
-			}
-		});
-
-		$(this).waypoint(function () {
-			bar.animate(progPercent);
-		}, {
-			offset: "90%"
-		})
-
-	});
 }
 
 function enableLineProgress() {
@@ -206,37 +151,6 @@ function enableCounterUp(a) {
 
 	return a;
 }
-
-// var $caption = $('<div />', {
-// 	'id': 'custom-trigger-1-social'
-// });
-// $caption
-// 	.html('<div class="img-caption"></div><p class="img-desc"></p><ul><li>Share on:</li><li><a href="#">Facebook</a></li><li><a href="#">Pinterest</a></li><li><a href="#">Twitter</a></li></ul>')
-// 	.appendTo($('body'));
-// $(document).on('click', '#custom-trigger-1-social', function (e) {
-// 	e.preventDefault();
-// });
-
-// // Initialize Fluidbox
-// $('#custom-trigger-1')
-// 	.fluidbox()
-// 	.on('openend.fluidbox', function () {
-// 		var $img = $(this).find('img');
-// 		$('#custom-trigger-1-social')
-// 			.addClass('visible')
-// 			.find('.img-caption')
-// 			.text($img.attr('title'))
-// 			.next('.img-desc')
-// 			.text($img.attr('alt'));
-// 	})
-// 	.on('closestart.fluidbox', function () {
-// 		$('#custom-trigger-1-social').removeClass('visible');
-// 	});
-
-// // Call public methods
-// $(window).scroll(function () {
-// 	$('#custom-event-2').fluidbox('close');
-// });
 
 function isExists(elem) {
 	if ($(elem).length > 0) {
