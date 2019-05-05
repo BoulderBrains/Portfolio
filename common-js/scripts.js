@@ -1,9 +1,6 @@
 (function ($) {
 	"use strict";
 
-	// LINE PROGRESS BAR
-	enableLineProgress();
-
 	// ACCORDIAN
 	panelAccordian();
 
@@ -69,48 +66,6 @@ function panelAccordian() {
 
 	});
 
-}
-
-function enableLineProgress() {
-
-	$(".line-progress").each(function () {
-		var $this = $(this),
-			progPercent = $this.data('prog-percent');
-
-		var bar = new ProgressBar.Line(this, {
-			strokeWidth: 1,
-			easing: 'easeInOut',
-			duration: 1400,
-			color: '#FEAE01',
-			trailColor: '#eee',
-			trailWidth: 1,
-			svgStyle: {
-				width: '100%',
-				height: '100%'
-			},
-			text: {
-				style: {
-
-				},
-			},
-			from: {
-				color: '#FFEA82'
-			},
-			to: {
-				color: '#ED6A5A'
-			},
-			step: (state, bar) => {
-				bar.setText(Math.round(bar.value() * 100) + ' %');
-			}
-		});
-
-		$(this).waypoint(function () {
-			bar.animate(progPercent);
-		}, {
-			offset: "90%"
-		})
-
-	});
 }
 
 function enableCounterUp(a) {
