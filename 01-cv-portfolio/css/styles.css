@@ -545,6 +545,7 @@ header .downlad-btn:hover {
 	border: 2px solid #28023D;
 	border-radius: 7px;
 	margin: 15px;
+	background-color: #90819C;
 }
 
 .project1,
@@ -555,13 +556,12 @@ header .downlad-btn:hover {
 .project6,
 .project7,
 .project8 {
-	height: 300px;
+	height: 200px;
 	background-size: contain;
 	background-repeat: no-repeat;
 	background-position: center;
 	text-align: center;
 	transition: transform .2s;
-	margin-top: 20px;
 }
 
 .project:hover {
@@ -578,6 +578,17 @@ header .downlad-btn:hover {
 .project:hover .project7,
 .project:hover .project8 {
 	transform: rotate(-4deg);
+}
+
+.project-title,
+.built-text {
+	padding: 15px;
+	color: white;
+}
+
+.project:hover .project-title,
+.project:hover .built-text {
+	color: #FFAB00;
 }
 
 .project1 {
